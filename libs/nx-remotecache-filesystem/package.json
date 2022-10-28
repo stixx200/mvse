@@ -1,6 +1,6 @@
 {
   "name": "@stixx200/nx-remotecache-filesystem",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "commonjs",
   "author": {
     "name": "Markus Völk",
