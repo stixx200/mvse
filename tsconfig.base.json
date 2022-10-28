@@ -7,6 +7,7 @@
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "esModuleInterop": true,
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
@@ -15,7 +16,13 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@mvse/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@mvse/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@mvse/nx-remotecache-filesystem": [
+        "libs/nx-remotecache-filesystem/src/index.ts"
+      ],
+      "@mvse/on-premise-cache-task-runner": [
+        "libs/on-premise-cache-task-runner/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
